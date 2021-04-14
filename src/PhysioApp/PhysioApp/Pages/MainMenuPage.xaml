@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PhysioApp.Pages.MainMenuPage">
+    <ContentPage.Content>
+        <StackLayout>
+          <Label Text="PhysioCam" HorizontalTextAlignment="Center" Margin="0, 10, 0, 20" FontSize="Large"/>
+          <Button Text="Opret træningsprogram"
+                  HorizontalOptions="Fill"
+                  Clicked="TrainingProgramButton_OnClicked"/>
+          <Button Text="Indstillinger"
+                  HorizontalOptions="Fill"
+                  Clicked="SettingsButton_OnClicked"/>
+    </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
